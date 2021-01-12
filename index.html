@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>
+    Tiwari Family Book
+    </title>   
+  </head>
+  <body>
+    <h1 id="heading1">
+    Tiwari Family Book
+    </h1>
+    <img id="IMGDOD" src="Mumma.jpg">
+ <div> 
+ <button type="button" onclick="nextslide()">
+   next
+  </button>   
+   </div> 
+    <p id="name 1">
+    Shalini Tiwari
+    </p>
+   
+<script>
+ var Names=[ 
+"Shalini Tiwari"," Ganesh Tiwari","Paridhi Tiwari", "Samveg Tiwari"
+];
+var images=[
+"blob:https://web.whatsapp.com/e08d0f33-0957-4ae3-a7c1-b79336ed335f",
+"blob:https://web.whatsapp.com/c7eacb77-96b9-49e6-99a8-e58b308fcea8",
+"blob:https://web.whatsapp.com/11d0399a-9e2b-4dea-97d3-5fe3fbfa6181",
+"blob:https://web.whatsapp.com/bd0204bd-e744-4e30-bb35-ee894a2ea05b"
+];
+var I=0;
+function nextslide(){
+  document.getElementById("IMGDOD").innerHTML=images[I]; 
+  I++;
+}   
+</script>
+  </body>
+
+</html>
